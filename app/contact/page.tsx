@@ -11,6 +11,7 @@ import {
     CardTitle,
   } from "@/components/ui/card";
 
+export const runtime = "edge";
 const Contact = () => {
     return <div className = "container mx-auto align-items-center">
         <Card>

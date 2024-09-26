@@ -41,6 +41,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 
+export const runtime = "edge";
 
 const Projects = () => {
     const plugin = React.useRef(

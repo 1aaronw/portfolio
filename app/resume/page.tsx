@@ -3,6 +3,8 @@
 // And delete this or some example implementation shown in the doc:
 import myResume from '/public/documents/aaron_wang.pdf';
 
+export const runtime = "edge";
+
 export default function Resume() {
     return (
         <div className = "container mx-auto">

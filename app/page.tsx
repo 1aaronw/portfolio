@@ -10,6 +10,8 @@ import {
 import Image from 'next/image';
 import Me from '/assets/me.png';
 
+export const runtime = "edge";
+
 const Home = () => {
   return <div className = "container mx-auto align-items-center">
       <Card>
