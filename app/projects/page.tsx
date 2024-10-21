@@ -47,7 +47,7 @@ const Projects = () => {
     const plugin = React.useRef(
       Autoplay({ delay: 2000, stopOnInteraction: true })
     )
-    return <div className = "container grid items-center justify-center gap-4 grid-cols-4">
+    return <div className = "container grid items-center justify-center gap-4 md:grid-cols-4 sm:grid-cols-auto">
       <Card>
           <CardHeader className = "flex items-center text-center">
             <CardTitle>Portfolio Website</CardTitle>
@@ -205,7 +205,7 @@ const Projects = () => {
             </DialogContent>
             </Dialog>
           <div className="flex gap-2">
-            <Badge className = "bg-purple-600">ReactJS</Badge>
+            <Badge className = "bg-purple-600">React.js</Badge>
           </div>
           </CardHeader>
       </Card>
