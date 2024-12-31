@@ -14,7 +14,9 @@ import CLI_Lock4 from '/assets/cli_lock4.png';
 import BCS from '/assets/bcs_characters.png';
 import Clipboard1 from '/assets/clipboardScreenshot.jpg';
 import ClipboardLogo from '/assets/clipboard.png';
-import Orange from '/assets/orange-calculator.png';
+import SudokuParallel from '/assets/parallel.png';
+import SudokuNormal from '/assets/normal.png';
+import SolvedSudoku from '/assets/solvedsudoku.png';
 
 import {
   Card,
@@ -264,9 +266,9 @@ const Projects = () => {
       </Card>
       <Card>
           <CardHeader className = "flex items-center text-center">
-            <CardTitle>Optimal Oranges Calculator (Hackathon Project)</CardTitle>
+            <CardTitle>Parallel Sudoku Solver</CardTitle>
             <CardDescription>
-            A hackathon project from Cutie Hack 2022 that calculates the optimal time to harvest oranges
+            A parallelized implementation of solving Sudoku using multi-threading
           </CardDescription>
           <Dialog>
             <DialogTrigger asChild>
@@ -284,25 +286,41 @@ const Projects = () => {
               <CarouselItem>
                     <Card>
                       <CardContent className="flex aspect-square items-center justify-center p-6">
-                      <Image className="inline-block align-middle"src= {Orange} alt="Orange Calculator Icon" />
+                      <Image className="inline-block align-middle"src= {SudokuNormal} alt="Sudoku Normal Icon" />
                       </CardContent>
                     </Card>
               </CarouselItem>
+              <CarouselItem>
+                  <Card>
+                    <CardContent className="flex aspect-square items-center justify-center p-6">
+                    <Image className="inline-block align-middle" src= {SudokuParallel} alt="Sudoku Parallel Icon" />
+                  </CardContent>
+                 </Card>
+              </CarouselItem>
+              <CarouselItem>
+                  <Card>
+                    <CardContent className="flex aspect-square items-center justify-center p-6">
+                    <Image className="inline-block align-middle" src= {SolvedSudoku} alt="Sudoku Icon" />
+                  </CardContent>
+                 </Card>
+              </CarouselItem>
               </CarouselContent>
+              <CarouselPrevious />
+              <CarouselNext />
               </Carousel>
-                <DialogTitle>Optimal Oranges Calculator (Hackathon Project)</DialogTitle>
+                <DialogTitle>Parallelized Sudoku Solver</DialogTitle>
                 <DialogDescription>
-                This is a front-end application that gives the date when you harvest the most amount of oranges from a given date.
+                This is a parallelized Sudoku Solver application of 9x9 Suodku grids that efficiently handles the computation of valid moves via concurrency.
                 </DialogDescription>
                 <DialogDescription>
-                Learn more about this on <a className = "hover:bg-gray-200" href="https://github.com/1aaronw/orange-calculator"><Image className="inline-block align-middle" src= {Github} width={20} height={20} alt="GitHub Icon" /></a>
+                Learn more about this on <a className = "hover:bg-gray-200" href="https://github.com/1aaronw/parallel-sudoku-solver"><Image className="inline-block align-middle" src= {Github} width={20} height={20} alt="GitHub Icon" /></a>
                 </DialogDescription>
               </DialogHeader>
+              
             </DialogContent>
             </Dialog>
           <div className="flex gap-2">
-            <Badge className = "bg-green-700">JavaScript</Badge>
-            <Badge className = "bg-gray-700">CSS</Badge>
+            <Badge className = "bg-purple-700">Python</Badge>
           </div>
           </CardHeader>
       </Card>
