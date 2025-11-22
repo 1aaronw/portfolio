@@ -12,6 +12,9 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "Aaron Wang",
   description: "Aaron Wang's Portfolio",
+  other: {
+    'cf-2fa-verify': 'b98cc31baa1ccc9',
+  },
 };
 
 export default function RootLayout({
