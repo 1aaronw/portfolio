@@ -50,7 +50,7 @@ export default function Portfolio() {
           <div className="border border-[#333] p-4 font-mono text-[0.85rem] leading-relaxed">
             <div className="font-bold text-[#ccc] mt-2 uppercase">Wevr | Burbank, CA</div>
             <p className="mb-2 text-[#aaa]">&gt; VR Quality Assurance Tester<br/>
-            &gt; Nov 2025 - April 2026</p>
+            &gt; Nov 2025 - Mar 2026</p>
             <ul className="list-none space-y-1">
               <li>- Validated fixes and ensured stable application behavior for VR releases.</li>
               <li>- Documented defects related to user input, rendering, and performance.</li>
