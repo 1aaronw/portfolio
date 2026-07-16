@@ -25,7 +25,7 @@ export default function Portfolio() {
       {/* Pfp */}
       <div className="relative w-32 h-32 md:w-40 md:h-40 border-2 border-white contrast-125 overflow-hidden">
         <Image
-          src="/profile.jpg"
+          src="/pfp.jpg"
           alt="Aaron Wang"
           fill
           className="object-cover object-top"
@@ -50,7 +50,7 @@ export default function Portfolio() {
           <div className="border border-[#333] p-4 font-mono text-[0.85rem] leading-relaxed">
             <div className="font-bold text-[#ccc] mt-2 uppercase">Wevr | Burbank, CA</div>
             <p className="mb-2 text-[#aaa]">&gt; VR Quality Assurance Tester<br/>
-            &gt; Nov 2025 - Feb 2026</p>
+            &gt; Nov 2025 - April 2026</p>
             <ul className="list-none space-y-1">
               <li>- Validated fixes and ensured stable application behavior for VR releases.</li>
               <li>- Documented defects related to user input, rendering, and performance.</li>
@@ -74,17 +74,21 @@ export default function Portfolio() {
             </div>
 
             <div>
-              <div className="font-bold text-[#ccc] underline">Self-Adjusting Lighting System</div>
-              <p className="text-[0.75rem] text-[#888] mb-1">Python, Firebase, Jetson Nano, Scikit-learn</p>
-              <p>- Built a real-time LED adjustment system using motion and ambient light sensors.</p>
-              <p>- Trained a Random Forest Classifier to categorize environments based on sensor logs.</p>
+              <div className="font-bold text-[#ccc] underline">Help Desk Ticketing System</div>
+              <p className="text-[0.75rem] text-[#888] mb-1">osTicket, Docker, MySQL </p>
+              <p>- Deployed an osTicket help desk environment using Docker Compose with separate containers for the web
+application and MySQL database.</p>
+              <p>- Managed ticket lifecycle including creation, assignment, escalation, and resolution using industry-standard help
+desk practices.</p>
             </div>
 
             <div>
-              <div className="font-bold text-[#ccc] underline">Parallelized Sudoku Solver</div>
-              <p className="text-[0.75rem] text-[#888] mb-1">Python, Multithreading</p>
-              <p>- Achieved 51.9% speedup by parallelizing pre-computation of valid moves.</p>
-              <p>- Implemented candidate caching to reduce computational redundancy.</p>
+              <div className="font-bold text-[#ccc] underline">Active Directory Homelab</div>
+              <p className="text-[0.75rem] text-[#888] mb-1">VirtualBox, Active Directory, PowerShell</p>
+              <p>- Designed and deployed a Windows Server Active Directory homelab in VirtualBox, creating a fully isolated private
+network for enterprise-style testing and administration.</p>
+              <p>- Automated the creation of 1,000+ Active Directory user accounts using a custom PowerShell script, significantly
+reducing manual provisioning time.</p>
             </div>
 
           </div>
@@ -103,10 +107,10 @@ export default function Portfolio() {
               <span className="text-[#888]">Frameworks:</span> Next.js, React, Node, Angular
             </div>
             <div>
-              <span className="text-[#888]">Tools:</span> Git, Firebase, Postman, VMWare
+              <span className="text-[#888]">Databases:</span> MySQL, MongoDB, Google Firebase
             </div>
             <div>
-              <span className="text-[#888]">OS:</span> Linux (Ubuntu), macOS, Windows
+              <span className="text-[#888]">Cloud/Virtualization:</span> Docker, Oracle VM VirtualBox, VMware
             </div>
           </div>
         </section>
