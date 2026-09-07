@@ -48,9 +48,11 @@ export default function Portfolio() {
             </a>
           </div>
           <div className="border border-[#333] p-4 font-mono text-[0.85rem] leading-relaxed">
-            <div className="font-bold text-[#ccc] mt-2 uppercase">Wevr | Burbank, CA</div>
-            <p className="mb-2 text-[#aaa]">&gt; VR Quality Assurance Tester<br/>
-            &gt; Nov 2025 - Mar 2026</p>
+            <div className="flex justify-between items-baseline mt-2">
+              <span className="font-bold text-[#ccc] uppercase">VR Quality Assurance Tester</span>
+              <span className="text-[#888] text-[0.75rem] whitespace-nowrap ml-4">Nov 2025 - Mar 2026</span>
+            </div>
+            <p className="mb-2 text-[#aaa] italic">Wevr, Burbank, CA</p>
             <ul className="list-none space-y-1">
               <li>- Validated fixes and ensured stable application behavior for VR releases.</li>
               <li>- Documented defects related to user input, rendering, and performance.</li>
@@ -117,16 +119,16 @@ reducing manual provisioning time.</p>
 
       </main>
       {/* Contact Info */}
-      <div className="border-2 border-white w-full max-w-[400px] mt-5 relative bg-black pt-6 pb-5">
-        <div className="absolute top-0 left-0 right-0 bg-white text-black text-center font-bold py-0.5 text-[1rem]">
-          contact
+        <div className="border-2 border-white w-full max-w-[400px] mt-5 relative bg-black pt-8 pb-6 flex flex-col items-center justify-center min-h-[140px]">
+          <div className="absolute top-0 left-0 right-0 bg-white text-black text-center font-bold py-0.5 text-[1rem]">
+            contact
+          </div>
+          <div className="font-mono text-[0.85rem] text-center leading-[1.8]">
+            <a href="mailto:aaronwanglucky@gmail.com" className="hover:underline">aaronwanglucky@gmail.com</a><br />
+            <a href="https://github.com/1aaronw" target="_blank" rel="noreferrer" className="hover:underline">github.com/1aaronw</a><br />
+            <a href="https://linkedin.com/in/aaron-wang-f" target="_blank" rel="noreferrer" className="hover:underline">linkedin.com/in/aaron-wang-f</a>
+          </div>
         </div>
-        <div className="font-mono text-[0.85rem] text-center leading-[1.8]">
-          <a href="mailto:aaronwanglucky@gmail.com" className="hover:underline">aaronwanglucky@gmail.com</a><br />
-          <a href="https://github.com/1aaronw" target="_blank" rel="noreferrer" className="hover:underline">github.com/1aaronw</a><br />
-          <a href="https://linkedin.com/in/aaron-wang-f" target="_blank" rel="noreferrer" className="hover:underline">linkedin.com/in/aaron-wang-f</a>
-        </div>
-      </div>
     </div>
   );
 }
